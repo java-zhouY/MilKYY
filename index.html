@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>hello</title>
+    <title>记录第一个全栈</title>
   </head>
   <body>
     <div class="todo-app">
-      <div class="title">xxx的Todo App</div>
+      <div class="title">Hututu的Todo App</div>
 
       <div class="todo-from">
         <input class="todo-input" type="text" placeholder="add a todo" />
@@ -32,7 +32,6 @@
         <div class="del">del</div>
       </div>
 
-      <div class="item">
         <div>
           <input type="checkbox" />
           <span class="name">吃饭</span>
@@ -40,6 +39,9 @@
 
         <div class="del">del</div>
       </div>
+      <div class="item">
+        <a href="like.html" class="button">UP的Xp</a>
+      </div>  
     </div>
     <style>
       .completed {
@@ -115,6 +117,28 @@
         font-weight: 700;
         text-align: center;
       }
+      .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 15px;
+            /* box-shadow: 0 9px #999; */
+        }
+
+        .button:hover {background-color: #3e8e41}
+
+        .button:active {
+            background-color: #3e8e41;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
     </style>
   </body>
 </html>
